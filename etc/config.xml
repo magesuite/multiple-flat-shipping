@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © 2016 Magento. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <carriers>
+            <flatrate1>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>MageSuite\MultipleFlatShipping\Model\Carrier\Flatrate1</model>
+                <name>Fixed</name>
+                <price>5.00</price>
+                <minimum_subtotal_for_free_shipping></minimum_subtotal_for_free_shipping>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.
+                </specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate1>
+            <flatrate2>
+                <active>0</active>
+                <sallowspecific>0</sallowspecific>
+                <model>MageSuite\MultipleFlatShipping\Model\Carrier\Flatrate2</model>
+                <name>Fixed</name>
+                <price>5.00</price>
+                <minimum_subtotal_for_free_shipping></minimum_subtotal_for_free_shipping>
+                <title>Flat Rate</title>
+                <type>I</type>
+                <specificerrmsg>This shipping method is not available. To use this shipping method, please contact us.
+                </specificerrmsg>
+                <handling_type>F</handling_type>
+            </flatrate2>
+        </carriers>
+    </default>
+</config>
