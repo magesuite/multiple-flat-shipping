@@ -1,0 +1,13 @@
+"Field ","Champ "
+" is required."," requis."
+Enabled,Activé
+"Method Name","Nom de la méthode"
+Price,Prix
+"Calculate Handling Fee","Calculer les frais de dossier"
+"Handling Fee","Frais de dossier"
+"Sort Order","Ordre de tri"
+Title,Titre
+"Ship to Applicable Countries","Livrer dans les pays applicables"
+"Ship to Specific Countries","Livrer dans des pays spécifiques"
+"Show Method if Not Applicable","Afficher la méthode si elle n’est pas applicable"
+"Displayed Error Message","Message d’erreur affiché"
